@@ -230,8 +230,9 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
     .main-section {
-        width: 700px;
+        width: 680px;
         margin: 0 auto;
+        align-content: center;
     }
 
     .container {
@@ -272,6 +273,10 @@ input[type=submit] {
     .auth-image {
         width: 100%;
         margin-bottom: 15px;
+    }
+    .work {
+        width: 100%;
+        margin: 20px auto 40px auto; 
     }
 }
 
