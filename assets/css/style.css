@@ -253,6 +253,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+    #masthead {
+        position: static;
+    }
     #logo {
         width:100%;
         text-align: center;
@@ -260,9 +263,11 @@ input[type=submit] {
     .test1 {
         width: 100%;
         text-align: center;
+        padding-bottom: 20px;
     }
+    /* this one fixes weird margin that appeared above main content */
     .main-section {
-        margin-top: 50px;
+        margin-top: -140px;
     }
     .auth-image {
         width: 100%;
